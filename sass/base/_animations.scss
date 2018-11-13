@@ -1,0 +1,27 @@
+@keyframes movingRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    50%{
+        transform: translateX(1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes movingLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    50%{
+        transform: translateX(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
